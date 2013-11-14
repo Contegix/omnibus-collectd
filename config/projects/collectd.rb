@@ -16,11 +16,11 @@
 #
 
 name "collectd"
-maintainer "jeff.r.dutton@gmail.com"
-homepage "https://github.com/jdutton/omnibus-collectd"
+maintainer "Contegix LLC"
+homepage "http://www.contegix.com"
 
 replaces        "collectd"
-install_path    "/opt/collectd"
+install_path    "/opt/contegix/collectd"
 build_version   "5.4.0"  # Make sure this matches the config/software/collectd.rb
 build_iteration 1
 
